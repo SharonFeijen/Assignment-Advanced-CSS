@@ -1,0 +1,48 @@
+.socialmedia-menu {
+    position: fixed;
+    top: 50%;
+    left: calc(100% - 50px);
+    padding: 0;
+    list-style-type: none;
+    transform: translateY(-50%);
+    min-width: 250px;
+  }
+  
+  .button-menu {
+    align-items: center;
+    transition: 0.25s linear;
+    i {
+      text-align: left;
+      font-size: 18px;
+      color: #fff;
+      padding: 15px;
+      width: 60px;  
+    }
+    a {
+      color: #fff;     
+    }
+  }
+
+  .button-menu:hover {
+    transform: translateX(calc(-200px));
+  }
+  
+  .button-menu.blog {
+    background-color: #e17b77;
+  }
+  
+  .button-menu.twitter {
+    background-color: #00aced;
+  }
+  
+  .button-menu.linkedin {
+    background-color: #007bb6;
+  }
+  
+  .button-menu.facebook {
+    background-color: #3b5998;
+  }
+
+  .button-menu.github {
+    background-color: #333;
+  }

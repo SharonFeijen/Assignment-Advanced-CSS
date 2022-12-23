@@ -1,0 +1,30 @@
+/* Assignment - Advanced CSS - part 1 - testimonial */
+
+@import "_assignment-part3.scss";
+
+
+/* Assignment - Advanced CSS - part 2 - portfolio */
+
+@import "_assignment-part2.scss";
+  
+
+/* Assignment - Advanced CSS - part 3 - social media buttons */
+
+@import "_assignment-part3.scss";
+  
+
+/* Some general CSS */
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+@import "_header.scss";
+
+@import "_body-scss";
+
+@import "_h1.scss";
+  
+@import "_h2.scss";
